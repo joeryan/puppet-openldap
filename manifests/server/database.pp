@@ -84,7 +84,7 @@ define openldap::server::database (
     timelimit         => $timelimit,
     dbmaxsize         => $dbmaxsize,
     updateref         => $updateref,
-    lastbind          => $lastbind,
+    # lastbind          => $lastbind,
     lastbindprecision => $lastbindprecision,
     dboptions         => $dboptions,
     synctype          => $synctype,
